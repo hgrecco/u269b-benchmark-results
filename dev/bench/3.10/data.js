@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1669425218147,
+  "lastUpdate": 1670035984451,
   "repoUrl": "https://github.com/hgrecco/u269b",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -108,6 +108,93 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 3.6706389335797057e-7",
             "extra": "mean: 8.63712745653263 usec\nrounds: 31446"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "hernan.grecco@gmail.com",
+            "name": "Hernan",
+            "username": "hgrecco"
+          },
+          "committer": {
+            "email": "hernan.grecco@gmail.com",
+            "name": "Hernan",
+            "username": "hgrecco"
+          },
+          "distinct": true,
+          "id": "bd1195b94c357078bee46a6bc59f532c704d44df",
+          "message": "Add testsuit common",
+          "timestamp": "2022-12-02T23:52:28-03:00",
+          "tree_id": "6c3ca0bbd4ab740a2f49937ab64038d21d8f7ad5",
+          "url": "https://github.com/hgrecco/u269b/commit/bd1195b94c357078bee46a6bc59f532c704d44df"
+        },
+        "date": 1670035983937,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_python_eval[x+y]",
+            "value": 149640.6751717484,
+            "unit": "iter/sec",
+            "range": "stddev: 4.628795810607711e-7",
+            "extra": "mean: 6.68267500699433 usec\nrounds: 22422"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_python_eval[cos(z)]",
+            "value": 125288.80591199068,
+            "unit": "iter/sec",
+            "range": "stddev: 5.024643368675407e-7",
+            "extra": "mean: 7.9815590285252735 usec\nrounds: 29850"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_python_eval[x * cos(z) + y]",
+            "value": 98866.83742683927,
+            "unit": "iter/sec",
+            "range": "stddev: 5.499868768407527e-7",
+            "extra": "mean: 10.114615031961478 usec\nrounds: 27701"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate_as_string[math-x+y]",
+            "value": 145951.3729456289,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000044992182933505524",
+            "extra": "mean: 6.851597075229494 usec\nrounds: 30770"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate_as_string[math-cos(z)]",
+            "value": 169805.61207051275,
+            "unit": "iter/sec",
+            "range": "stddev: 4.307639393839582e-7",
+            "extra": "mean: 5.889086867074477 usec\nrounds: 38461"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate_as_string[math-x * cos(z) + y]",
+            "value": 63763.6201246836,
+            "unit": "iter/sec",
+            "range": "stddev: 6.443986267662935e-7",
+            "extra": "mean: 15.682923868572654 usec\nrounds: 19532"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate[math-x+y]",
+            "value": 305554.4672128047,
+            "unit": "iter/sec",
+            "range": "stddev: 9.951476505128565e-7",
+            "extra": "mean: 3.272738929729166 usec\nrounds: 67568"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate[math-cos(z)]",
+            "value": 294695.5674080977,
+            "unit": "iter/sec",
+            "range": "stddev: 2.4569515817495253e-7",
+            "extra": "mean: 3.3933323422377404 usec\nrounds: 56177"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate[math-x * cos(z) + y]",
+            "value": 118380.10427137928,
+            "unit": "iter/sec",
+            "range": "stddev: 5.033563224758303e-7",
+            "extra": "mean: 8.447365426436525 usec\nrounds: 34483"
           }
         ]
       }
