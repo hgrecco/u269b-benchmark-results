@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1670272115599,
+  "lastUpdate": 1670353385230,
   "repoUrl": "https://github.com/hgrecco/u269b",
   "entries": {
     "Python Benchmark with pytest-benchmark": [
@@ -282,6 +282,93 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 6.583555984343918e-7",
             "extra": "mean: 8.790462904606686 usec\nrounds: 957"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "maurosilber@gmail.com",
+            "name": "Mauro Silberberg",
+            "username": "maurosilber"
+          },
+          "committer": {
+            "email": "maurosilber@gmail.com",
+            "name": "Mauro Silberberg",
+            "username": "maurosilber"
+          },
+          "distinct": true,
+          "id": "d4bb103c994ef21a58eb2257cc43ef4c0a1787f7",
+          "message": "Add NumPyMapper in a separate module",
+          "timestamp": "2022-12-06T16:02:25-03:00",
+          "tree_id": "e9a88c7d8c3b96870a36df57c2c3a7b12c4d9d52",
+          "url": "https://github.com/hgrecco/u269b/commit/d4bb103c994ef21a58eb2257cc43ef4c0a1787f7"
+        },
+        "date": 1670353384830,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_python_eval[x+y]",
+            "value": 163688.6252206459,
+            "unit": "iter/sec",
+            "range": "stddev: 5.423158310086067e-7",
+            "extra": "mean: 6.109159989901796 usec\nrounds: 24039"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_python_eval[cos(z)]",
+            "value": 140883.61382344458,
+            "unit": "iter/sec",
+            "range": "stddev: 6.306270494086556e-7",
+            "extra": "mean: 7.098057558725037 usec\nrounds: 29674"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_python_eval[x * cos(z) + y]",
+            "value": 111004.69826177393,
+            "unit": "iter/sec",
+            "range": "stddev: 8.73396833779157e-7",
+            "extra": "mean: 9.008627703683102 usec\nrounds: 28249"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate_as_string[math-x+y]",
+            "value": 128525.34943611843,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000006956643313981557",
+            "extra": "mean: 7.780566280405522 usec\nrounds: 29941"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate_as_string[math-cos(z)]",
+            "value": 152564.39937958444,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000043907658574931655",
+            "extra": "mean: 6.554609096660698 usec\nrounds: 46083"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate_as_string[math-x * cos(z) + y]",
+            "value": 55350.49104032345,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000003391605435556956",
+            "extra": "mean: 18.066687055612363 usec\nrounds: 20534"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate[math-x+y]",
+            "value": 289833.0529380286,
+            "unit": "iter/sec",
+            "range": "stddev: 2.350089768104406e-7",
+            "extra": "mean: 3.450262107316717 usec\nrounds: 72993"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate[math-cos(z)]",
+            "value": 291900.7053014902,
+            "unit": "iter/sec",
+            "range": "stddev: 2.7446611254688526e-7",
+            "extra": "mean: 3.4258224863387983 usec\nrounds: 57804"
+          },
+          {
+            "name": "u269b/testsuite/benchmarks/test_basic.py::test_evaluate[math-x * cos(z) + y]",
+            "value": 113397.48957855119,
+            "unit": "iter/sec",
+            "range": "stddev: 7.095408260629799e-7",
+            "extra": "mean: 8.818537374297808 usec\nrounds: 990"
           }
         ]
       }
